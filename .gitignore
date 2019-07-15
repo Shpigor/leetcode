@@ -1,0 +1,16 @@
+# Ignore Golang packages
+**/pkg/**
+# Ignore Golang binary files
+**/bin/**
+# Ignore vendor dependencies
+**/vendor/**
+# Ignore locked files
+Gopkg.lock
+
+# Intellij
+.idea/
+**.iml
+**.iws
+
+# Maven
+target/
